@@ -16,11 +16,6 @@ cd zabbix-postgresql-backup
 Edit the `pg_backup.conf` file to match your PostgreSQL environment:
 
 ```ini
-PGHOST=localhost
-PGPORT=5432
-PGUSER=postgres
-PGPASSWORD=yourpassword
-PGDATABASE=yourdatabase
 BACKUP_DIR=/var/backups/postgresql
 RETENTION_DAYS=7
 ```
